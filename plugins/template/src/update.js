@@ -1,13 +1,11 @@
-import { createList } from "../../lib/utility";
-
 function ma(...a) { return [...a] }
 
 const update = [
-	createList(
+	[
 		"1.0.0",
 		ma("Created the Plugin (woah)"),
-	),
-	createList(
+	],
+	[
 		"1.0.1 - 1.0.3",
 		ma(
 			"[1.0.1] hmm1",
@@ -29,8 +27,8 @@ const update = [
 			"[1.0.3] hmm4",
 			"[1.0.3] hmm5",
 		)
-	),
-	createList(
+	],
+	[
 		"1.1",
 		ma(
 			"[1.1.0] hmm1",
@@ -39,12 +37,12 @@ const update = [
 		ma(
 			"[1.1.0] hmm1",
 		)
-	),
-	createList(
+	],
+	[
 		"1.2",
 		null,
 		ma("[1.2] hmm1")
-	)
+	]
 ]
 
 
